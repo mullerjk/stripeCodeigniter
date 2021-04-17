@@ -29,7 +29,7 @@ https://github.com/stripe/stripe-php*
 
 Unzip and rename to stripe-php, copy the folder with the content inside the following path.
 
-	stripeCodeigniter/aplications/libraries
+	stripeCodeigniter/application/libraries
 
 ## Obtain Your Stripe Keys
 
@@ -54,8 +54,9 @@ You have to store your keys in your application, I'm not doing any security or o
 	$config['sess_save_path'] = sys_get_temp_dir();
 
 You know what to do here, alright?!
-Edit with your credentials and paste this code in your
-	stripeCodeigniter/config/config.
+Edit with your credentials and paste at very bottom of 
+
+	stripeCodeigniter/application/config/config.php
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -184,6 +185,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODk4NDQwOCwtMTg4MzA0NTQwOSwxOD
-QxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbLTE5OTkxMzMzOTAsLTE4ODMwNDU0MDksMT
+g0MTI2NjcwOV19
 -->
