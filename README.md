@@ -68,7 +68,9 @@ Open your browser("your host adrees"/stripeCodeiginiter) like mine.
 ## Make A Payment
 
 Click on proceed to checkout and make your payment.
-*The test card *
+*The test card data are:*
+	
+	4242 4242 4242 4242  
 
 
 #  🥳 Congratulations
@@ -186,6 +188,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzcxMDc3OCwtMTk5OTEzMzM5MCwtMT
+eyJoaXN0b3J5IjpbLTk0MzkxNzUxOCwtMTk5OTEzMzM5MCwtMT
 g4MzA0NTQwOSwxODQxMjY2NzA5XX0=
 -->
