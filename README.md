@@ -21,15 +21,15 @@ Install codeigniter inside your stripeCodeigniter folder.
 
 ## Create Your Stripe keys
 
-That was my first time dealing with **stripe**, and I cant tell you, the documentation are very powerfull and easy to understood, this integration worked like a charm. 
+That was my first time dealing with **stripe**, and I could notice a very powerfull and easy to understood documentation, this integration worked like a charm. 
 
 I will let you with the documentation.
 *https://stripe.com/docs/keys#obtain-api-keys*
 
-Now with your keys.
-## Switch to another file
+Now with your keys in hand.
+## Edit your config.php
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+You have to store your keys in your application, s
 
 ## Rename a file
 
@@ -158,5 +158,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3NTg4Mzc0LDE4NDEyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbMTExMzAzNzQ0MSwxODQxMjY2NzA5XX0=
 -->
