@@ -77,55 +77,53 @@ Just paste this lines at the very bottom of your:
 	stripeCodeigniter/application/controllers
 The content of your controller should be like that.
 
-	    <?php
-		defined('BASEPATH') OR exit('No direct script access allowed');
-		class  StripePaymentController  extends  CI_Controller {
-		public  function  __construct() {
-		parent::__construct();
-		$this->load->library("session");
-		$this->load->helper('url');
-		}
-	  
-	public  function  index()
-	{
+	   <?php
+defined('BASEPATH') or exit('No direct script access allowed');
 
-	$this->load->view('checkout');
+class StripePaymentController extends CI_Controller
+{
 
-	}
+    public function __construct()
+    {
+        parent::__construct();
+        $this
+            ->load
+            ->library("session");
+        $this
+            ->load
+            ->helper('url');
+    }
 
-	  
+    public function index()
+    {
+        $this
+            ->load
+            ->view('checkout');
+    }
 
-	public  function  handlePayment()
+    public function handlePayment()
+    {
+        require_once ('application/libraries/stripe-php/init.php');
 
-	{
+        \Stripe\Stripe::setApiKey($this
+            ->config
+            ->item('stripe_secret'));
 
-	require_once('application/libraries/stripe-php/init.php');
+        \Stripe\Charge::create(["amount" => 100, "currency" => "usd", "source" => $this
+            ->input
+            ->post('stripeToken') , "description" => "ABC"]);
 
-	\Stripe\Stripe::setApiKey($this->config->item('stripe_secret'));
+        $this
+            ->session
+            ->set_flashdata('success', 'Payment has been successful.');
 
-	\Stripe\Charge::create ([
+        print_r($_SESSION);
+        //redirect('/make-stripe-payment', 'refresh');
+        
+    }
+}
 
-	"amount" => 100,
-
-	"currency" => "usd",
-
-	"source" => $this->input->post('stripeToken'),
-
-	"description" => "ABC"
-
-	]);
-
-	  
-
-	$this->session->set_flashdata('success', 'Payment has been successful.');
-
-	print_r($_SESSION);
-
-	//redirect('/make-stripe-payment', 'refresh');
-
-	}
-
-	}
+	
 
 ## Delete a file
 
@@ -251,6 +249,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwMDczOTI5LC0xOTk5MTMzMzkwLC0xOD
-gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbMTI1ODgxNDEyMSwtMTk5OTEzMzM5MCwtMT
+g4MzA0NTQwOSwxODQxMjY2NzA5XX0=
 -->
