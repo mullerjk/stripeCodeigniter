@@ -69,7 +69,7 @@ You have to store your keys in your application, I'm not doing any security or o
 
 Just paste this lines at very bottom of your:
 
-	stripeCodeigniter/application/config/config.php
+	stripeCodeigniter/application/config/routes.php
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -198,6 +198,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjUyMDUyLC0xOTk5MTMzMzkwLC0xOD
-gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbLTE5NzQ1MDg3NzIsLTE5OTkxMzMzOTAsLT
+E4ODMwNDU0MDksMTg0MTI2NjcwOV19
 -->
