@@ -47,7 +47,7 @@ Now with your keys in hand.
 You have to store your keys in your application, I'm not doing any security or optmization implementation because the focus is to keep our application lean e effective to test it.
 
 	#----------------------------------------------
-	# Stripe
+	# Stripe Config
 	#-----------------------------------------------
 	$config['stripe_key'] = 'pk_test_*****';
 	$config['stripe_secret'] = 'sk_test_*****';
@@ -185,6 +185,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkxMzMzOTAsLTE4ODMwNDU0MDksMT
-g0MTI2NjcwOV19
+eyJoaXN0b3J5IjpbMTc4Nzc1NDE4LC0xOTk5MTMzMzkwLC0xOD
+gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
 -->
