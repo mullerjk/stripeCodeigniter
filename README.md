@@ -44,9 +44,16 @@ https://stripe.com/docs/keys#obtain-api-keys*
 Now with your keys in hand.
 ## Edit your config.php
 
-You have to store your keys in your application, I'm not doing any security or optmization implementation because the focus is to keep our application lean e effective.
+You have to store your keys in your application, I'm not doing any security or optmization implementation because the focus is to keep our application lean e effective to test it.
 
-	**
+	#--------------------------------------------------------------------
+
+	# Stripe
+
+	#-----------------------------------------------
+	$config['stripe_key'] = 'pk_test_*****';
+	$config['stripe_secret'] = 'sk_test_*****';
+	$config['sess_save_path'] = sys_get_temp_dir();
 
 
 ## Rename a file
@@ -177,6 +184,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTcxNjk4NDgsLTE4ODMwNDU0MDksMT
+eyJoaXN0b3J5IjpbLTE3Nzg3MDA5ODEsLTE4ODMwNDU0MDksMT
 g0MTI2NjcwOV19
 -->
