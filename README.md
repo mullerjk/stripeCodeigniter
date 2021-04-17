@@ -22,6 +22,9 @@ https://codeigniter.com/userguide3/installation/index.html*
 
 Install codeigniter inside your stripeCodeigniter folder.
 
+ 3. **Install de Stripe PHP Library**
+
+Install codeigniter inside your stripeCodeigniter folder.
 
 ## Obtain Your Stripe Keys
 
@@ -169,5 +172,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODMwNDU0MDksMTg0MTI2NjcwOV19
+eyJoaXN0b3J5IjpbLTk5NTc0MTQ2MSwtMTg4MzA0NTQwOSwxOD
+QxMjY2NzA5XX0=
 -->
