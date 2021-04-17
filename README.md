@@ -54,7 +54,20 @@ You have to store your keys in your application, I'm not doing any security or o
 	$config['sess_save_path'] = sys_get_temp_dir();
 
 You know what to do here, alright?!
-Edit with your credentials and paste at very bottom of 
+Edit with your credentials and paste at very bottom of your:
+
+	stripeCodeigniter/application/config/config.php
+## Edit your routes.php
+
+You have to store your keys in your application, I'm not doing any security or optmization implementation because the focus is to keep our application lean e effective to test it.
+
+	#----------------------------------------------
+	# Stripe Routes
+	#-----------------------------------------------
+	$route['make-stripe-payment'] = "StripePaymentController";
+	$route['handleStripePayment']['post'] = "StripePaymentController/handlePayment";
+
+Just paste this lines at very bottom of your:
 
 	stripeCodeigniter/application/config/config.php
 ## Rename a file
@@ -185,6 +198,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Nzc1NDE4LC0xOTk5MTMzMzkwLC0xOD
+eyJoaXN0b3J5IjpbMTc2NjUyMDUyLC0xOTk5MTMzMzkwLC0xOD
 gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
 -->
