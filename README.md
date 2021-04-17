@@ -6,7 +6,7 @@ Hi! I'm probably your first interaction with Codeigniter and Stripe, happy to se
 
  1. **Clone this repository**
 
-You will need to have [git](https://github.com/git-guides/install-git) installed in your pc, then.
+You will need to have [git](https://github.com/git-guides/install-git) and php installed in your pc, then.
 
     git clone https://github.com/mullerjk/stripeCodeigniter.git
 
@@ -59,9 +59,9 @@ Edit with your credentials and paste at very bottom of your:
 	stripeCodeigniter/application/config/config.php
 
 
-## Delete a file
+## Let's try?
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+Open your browser
 
 ## Export a file
 
@@ -183,6 +183,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzOTc3NDU3LC0xOTk5MTMzMzkwLC0xOD
-gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbMjA1MzE4NjI2MSwtMTk5OTEzMzM5MCwtMT
+g4MzA0NTQwOSwxODQxMjY2NzA5XX0=
 -->
