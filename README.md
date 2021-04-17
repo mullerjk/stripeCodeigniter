@@ -75,28 +75,18 @@ Just paste this lines at the very bottom of your:
 *In your controllers folder, create a file called* **StripePaymentController.php**
 
 	stripeCodeigniter/application/controllers
-The content of your controller 
+The content of your controller should be like that.
 
 	    <?php
-
-	defined('BASEPATH') OR exit('No direct script access allowed');
-
-	class  StripePaymentController  extends  CI_Controller {
-
-	public  function  __construct() {
-
-	parent::__construct();
-
-	$this->load->library("session");
-
-	$this->load->helper('url');
-
-	}
-
+		defined('BASEPATH') OR exit('No direct script access allowed');
+		class  StripePaymentController  extends  CI_Controller {
+		public  function  __construct() {
+		parent::__construct();
+		$this->load->library("session");
+		$this->load->helper('url');
+		}
 	  
-
 	public  function  index()
-
 	{
 
 	$this->load->view('checkout');
@@ -261,6 +251,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzIxMTM3NywtMTk5OTEzMzM5MCwtMT
-g4MzA0NTQwOSwxODQxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbNzcwMDczOTI5LC0xOTk5MTMzMzkwLC0xOD
+gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
 -->
