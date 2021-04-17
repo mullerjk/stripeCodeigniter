@@ -12,7 +12,7 @@ You will need to have [git](https://github.com/git-guides/install-git) installed
 
  2. **Installing CodeIgniter**
 
-We will u a version 3.1.11 of Codeigniter in this project.
+We will use the version 3.1.11 of Codeigniter in this project.
 
 *Download in this link.
 https://codeigniter.com/userguide3/installation/downloads.html*
@@ -44,7 +44,7 @@ https://stripe.com/docs/keys#obtain-api-keys*
 Now with your keys in hand.
 ## Edit your config.php
 
-You have to store your keys in your application, I'm not doing any security or optmization because the focus is to keep our application lean e effective.
+You have to store your keys in your application, I'm not doing any security or optmization implementation because the focus is to keep our application lean e effective.
 
 	**
 
@@ -177,6 +177,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjk5NjQ4LC0xODgzMDQ1NDA5LDE4ND
-EyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbLTEwOTcxNjk4NDgsLTE4ODMwNDU0MDksMT
+g0MTI2NjcwOV19
 -->
