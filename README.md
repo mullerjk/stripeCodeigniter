@@ -12,22 +12,22 @@ You will need to have [git](https://github.com/git-guides/install-git) installed
 
  2. **Installing CodeIgniter**
 
-We need a version 3.1.11 of Codeigniter in this project, 
+We will u a version 3.1.11 of Codeigniter in this project.
 
-*Download in this link
+*Download in this link.
 https://codeigniter.com/userguide3/installation/downloads.html*
 
-*Instal in this link
+*Instal in this link.
 https://codeigniter.com/userguide3/installation/index.html*
 
 Install codeigniter inside your stripeCodeigniter folder.
 
  3. **Install de Stripe PHP Library**
 
-*Download the zip on link bellow
+*Download the zip on link bellow.
 https://github.com/stripe/stripe-php*
 
-Unzip the content inside the following path
+Unzip and rename to stripe-php, copy the folder with the content inside the following path.
 
 	stripeCodeigniter/aplications/libraries
 
@@ -177,6 +177,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTE2MDEyNSwtMTg4MzA0NTQwOSwxOD
-QxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbMTEwNjk5NjQ4LC0xODgzMDQ1NDA5LDE4ND
+EyNjY3MDldfQ==
 -->
