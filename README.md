@@ -23,9 +23,10 @@ Install codeigniter inside your stripeCodeigniter folder.
 
 That was my first time dealing with **stripe**, and I cant tell you, the documentation are very powerfull and easy to understood, this integration worked like a charm. 
 
-I will let you with a tutorial, of how to generate your keys.
+I will let you with the documentation.
+*https://stripe.com/docs/keys#obtain-api-keys*
 
-**
+Now with your keys.
 ## Switch to another file
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
@@ -157,5 +158,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NjM5OTY1LDE4NDEyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbODk3NTg4Mzc0LDE4NDEyNjY3MDldfQ==
 -->
