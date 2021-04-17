@@ -10,11 +10,15 @@ You will need to have git installed in your pc, then.
 
     git clone https://github.com/mullerjk/stripeCodeigniter.git
 
- 2. *Installing CodeIgniter*
+ 2. **Installing CodeIgniter**
 
-We need a version 3 of Codeigniter in this project, follow this link.
+We need a version 3.1.11 of Codeigniter in this project, 
 
-*https://codeigniter.com/userguide3/installation/index.html*
+*Download in this link
+https://codeigniter.com/userguide3/installation/downloads.html*
+
+*Instal in this link
+https://codeigniter.com/userguide3/installation/index.html*
 
 Install codeigniter inside your stripeCodeigniter folder.
 
@@ -160,5 +164,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MjQ0MjE2LDE4NDEyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbMjA0ODYzMjU3OSwxODQxMjY2NzA5XX0=
 -->
