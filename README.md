@@ -14,7 +14,7 @@ You will need to have git installed in your pc, then.
 
 We need a version 3 of Codeigniter in this project, follow this link.
 
-https://codeigniter.com/userguide3/installation/index.html
+*https://codeigniter.com/userguide3/installation/index.html*
 
 Install codeigniter inside your stripeCodeigniter folder.
 
@@ -25,6 +25,7 @@ That was my first time dealing with **stripe**, and I cant tell you, the documen
 
 I will let you with a tutorial, of how to generate your keys.
 
+**
 ## Switch to another file
 
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
@@ -156,5 +157,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mzc1MzQ0OSwxODQxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbMzk3NjM5OTY1LDE4NDEyNjY3MDldfQ==
 -->
