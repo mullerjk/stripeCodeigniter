@@ -46,16 +46,16 @@ Now with your keys in hand.
 
 You have to store your keys in your application, I'm not doing any security or optmization implementation because the focus is to keep our application lean e effective to test it.
 
-	#--------------------------------------------------------------------
-
+	#----------------------------------------------
 	# Stripe
-
 	#-----------------------------------------------
 	$config['stripe_key'] = 'pk_test_*****';
 	$config['stripe_secret'] = 'sk_test_*****';
 	$config['sess_save_path'] = sys_get_temp_dir();
 
-
+You know what to do here, alright?!
+Edit with your credentials and paste this code in your
+	stripeCodeigniter/config/config.
 ## Rename a file
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
@@ -184,6 +184,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg3MDA5ODEsLTE4ODMwNDU0MDksMT
-g0MTI2NjcwOV19
+eyJoaXN0b3J5IjpbLTI0ODk4NDQwOCwtMTg4MzA0NTQwOSwxOD
+QxMjY2NzA5XX0=
 -->
