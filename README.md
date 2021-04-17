@@ -27,9 +27,11 @@ Install codeigniter inside your stripeCodeigniter folder.
 
 That was my first time dealing with **stripe**, and I could notice a very powerfull and easy to understood documentation, this integration worked like a charm. 
 
-I will let you with the documentation.
-You need your 
-*https://stripe.com/docs/keys#obtain-api-keys*
+
+Grab your **Publishable** and **Secret** Keys
+
+*All instructions needed.
+https://stripe.com/docs/keys#obtain-api-keys*
 
 Now with your keys in hand.
 ## Edit your config.php
@@ -165,5 +167,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxNDYzMjA3LDE4NDEyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbMTI4NjU4MDIxNSwxODQxMjY2NzA5XX0=
 -->
