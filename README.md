@@ -28,7 +28,8 @@ Install codeigniter inside your stripeCodeigniter folder.
 https://github.com/stripe/stripe-php*
 
 Unzip the content inside the following path
-	*d*
+
+	stripeCodeigniter/aplications/libraries
 
 ## Obtain Your Stripe Keys
 
@@ -176,6 +177,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDE5MTcxOSwtMTg4MzA0NTQwOSwxOD
+eyJoaXN0b3J5IjpbMTQ0OTE2MDEyNSwtMTg4MzA0NTQwOSwxOD
 QxMjY2NzA5XX0=
 -->
