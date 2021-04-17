@@ -1,25 +1,27 @@
 # Welcome to Stripe + Codeigniter
 
-Hi! I'm probably your first interaction with Codeigniter and Stripe, happy to se you, this repo only demonstrate how to connect and realize a transaction, it's **not ready for production uses.**
+Hi! I'm probably your first interaction with Codeigniter and Stripe, happy to se you, this repo only demonstrates how to connect and realize a transaction, it's **not ready for production uses.**
 
 ## Requeriments
 
- 1. Clone this repository
+ 1. *Clone this repository*
 
 You will need to have git installed in your pc, then.
 
     git clone https://github.com/mullerjk/stripeCodeigniter.git
 
- 2. Installing CodeIgniter
+ 2. *Installing CodeIgniter*
 
 We need a version 3 of Codeigniter in this project, follow this link.
+
 https://codeigniter.com/userguide3/installation/index.html
+
 Install codeigniter inside your stripeCodeigniter folder.
 
 
 ## Create Your Stripe keys
 
-That was my first time integrating with **stripe**, and I cant tell you, that the documentation are very powerfull and easy to understood, this integration worked like a charm. 
+That was my first time dealing with **stripe**, and I cant tell you, the documentation are very powerfull and easy to understood, this integration worked like a charm. 
 
 I will let you with a tutorial, of how to generate your keys.
 
@@ -154,5 +156,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTI2NjcwOV19
+eyJoaXN0b3J5IjpbMjA5Mzc1MzQ0OSwxODQxMjY2NzA5XX0=
 -->
