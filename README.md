@@ -33,11 +33,12 @@ Grab your **Publishable** and **Secret** Keys
 *All instructions needed here.
 https://stripe.com/docs/keys#obtain-api-keys*
 
-ow you have your keys in hand.
+Now with your keys in hand.
 ## Edit your config.php
 
 You have to store your keys in your application, I'm not doing any security or optmization because the focus is to keep our application lean e effective.
 
+	**
 
 
 ## Rename a file
@@ -53,7 +54,8 @@ You can delete the current file by clicking the **Remove** button in the file ex
 You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
 
-# Synchronization
+#  🥳 Congratulations
+
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
@@ -167,5 +169,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDMxOTAzMCwxODQxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbLTE4ODMwNDU0MDksMTg0MTI2NjcwOV19
 -->
