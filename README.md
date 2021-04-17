@@ -4,7 +4,7 @@ Hi! I'm probably your first interaction with Codeigniter and Stripe, happy to se
 
 ## Requeriments
 
- 1. **Clone this repository**
+ 1. **Clone This Repository**
 
 You will need to have [git](https://github.com/git-guides/install-git) and [php](https://www.php.net/) installed in your pc, then.
 
@@ -42,7 +42,7 @@ Grab your **Publishable** and **Secret** Keys
 https://stripe.com/docs/keys#obtain-api-keys*
 
 Now with your keys in hand.
-## Edit your config.php
+## Edit Your Config.php
 
 You have to store your keys in your application, I'm not doing any security or optmization implementation because the focus is to keep our application lean e effective to test it.
 
@@ -59,13 +59,13 @@ Edit with your credentials and paste at very bottom of your:
 	stripeCodeigniter/application/config/config.php
 
 
-## Let's try?
+## Let's Try?
 
-Open your browser(use your adrees here + /)
+Open your browser("use your adrees here"/stripeCodeiginiter) like mine.
 	
 	https://localhost/stripeCodeigniter/
 
-## Export a file
+## Make A Payment
 
 You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
@@ -185,6 +185,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MjAyNDMxLC0xOTk5MTMzMzkwLC0xOD
-gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
+eyJoaXN0b3J5IjpbLTE4MzQ3NTYyMjMsLTE5OTkxMzMzOTAsLT
+E4ODMwNDU0MDksMTg0MTI2NjcwOV19
 -->
