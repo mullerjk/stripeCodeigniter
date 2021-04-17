@@ -59,7 +59,7 @@ Edit with your credentials and paste at very bottom of your:
 	stripeCodeigniter/application/config/config.php
 ## Edit your routes.php
 
-You have to store your keys in your application, I'm not doing any security or optmization implementation because the focus is to keep our application lean e effective to test it.
+You need to store your keys in your application, I'm not talking about any security or optmization implementation here because the focus is to keep our application lean and effective to test it.
 
 	#----------------------------------------------
 	# Stripe Routes
@@ -67,10 +67,10 @@ You have to store your keys in your application, I'm not doing any security or o
 	$route['make-stripe-payment'] = "StripePaymentController";
 	$route['handleStripePayment']['post'] = "StripePaymentController/handlePayment";
 
-Just paste this lines at very bottom of your:
+Just paste this lines at the very bottom of your:
 
 	stripeCodeigniter/application/config/routes.php
-## Rename a file
+## Let's create our Controller
 
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
@@ -198,6 +198,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ1MDg3NzIsLTE5OTkxMzMzOTAsLT
+eyJoaXN0b3J5IjpbLTE4MzU0MTMwNTUsLTE5OTkxMzMzOTAsLT
 E4ODMwNDU0MDksMTg0MTI2NjcwOV19
 -->
