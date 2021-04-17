@@ -72,7 +72,9 @@ Just paste this lines at the very bottom of your:
 	stripeCodeigniter/application/config/routes.php
 ## Let's create our Controller
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+*Inside your controllers folder create a file called* **StripePaymentController.php**
+
+	stripeCodeigniter/application/controllers
 
 ## Delete a file
 
@@ -198,6 +200,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU0MTMwNTUsLTE5OTkxMzMzOTAsLT
-E4ODMwNDU0MDksMTg0MTI2NjcwOV19
+eyJoaXN0b3J5IjpbNjM3NzE1MTY2LC0xOTk5MTMzMzkwLC0xOD
+gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
 -->
