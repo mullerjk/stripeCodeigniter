@@ -4,9 +4,9 @@ Hi! I'm probably your first interaction with Codeigniter and Stripe, happy to se
 
 ## Requeriments
 
- 1. *Clone this repository*
+ 1. **Clone this repository**
 
-You will need to have git installed in your pc, then.
+You will need to have [git](https://github.com/git-guides/install-git) installed in your pc, then.
 
     git clone https://github.com/mullerjk/stripeCodeigniter.git
 
@@ -28,6 +28,7 @@ Install codeigniter inside your stripeCodeigniter folder.
 That was my first time dealing with **stripe**, and I could notice a very powerfull and easy to understood documentation, this integration worked like a charm. 
 
 I will let you with the documentation.
+You need your 
 *https://stripe.com/docs/keys#obtain-api-keys*
 
 Now with your keys in hand.
@@ -164,5 +165,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODYzMjU3OSwxODQxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbNzgxNDYzMjA3LDE4NDEyNjY3MDldfQ==
 -->
