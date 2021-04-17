@@ -22,7 +22,7 @@ https://codeigniter.com/userguide3/installation/index.html*
 
 Install codeigniter inside your stripeCodeigniter folder.
 
- 3. **Install de Stripe PHP Library**
+ 3. **Installing Stripe PHP Library**
 
 *Download the zip on link bellow.
 https://github.com/stripe/stripe-php*
@@ -61,13 +61,14 @@ Edit with your credentials and paste at very bottom of your:
 
 ## Let's Try?
 
-Open your browser("use your adrees here"/stripeCodeiginiter) like mine.
+Open your browser("your host adrees"/stripeCodeiginiter) like mine.
 	
 	https://localhost/stripeCodeigniter/
 
 ## Make A Payment
 
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
+Click on proceed to checkout and make your payment.
+*The test card *
 
 
 #  🥳 Congratulations
@@ -185,6 +186,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ3NTYyMjMsLTE5OTkxMzMzOTAsLT
-E4ODMwNDU0MDksMTg0MTI2NjcwOV19
+eyJoaXN0b3J5IjpbLTQ4MzcxMDc3OCwtMTk5OTEzMzM5MCwtMT
+g4MzA0NTQwOSwxODQxMjY2NzA5XX0=
 -->
