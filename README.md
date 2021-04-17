@@ -30,10 +30,10 @@ That was my first time dealing with **stripe**, and I could notice a very powerf
 
 Grab your **Publishable** and **Secret** Keys
 
-*All instructions needed.
+*All instructions needed here.
 https://stripe.com/docs/keys#obtain-api-keys*
 
-Now with your keys in hand.
+ow you have your keys in hand.
 ## Edit your config.php
 
 You have to store your keys in your application, I'm not doing any security or optmization because the focus is to keep our application lean e effective.
@@ -167,5 +167,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjU4MDIxNSwxODQxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbLTE5NDMxOTAzMCwxODQxMjY2NzA5XX0=
 -->
