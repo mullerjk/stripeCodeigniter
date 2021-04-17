@@ -61,7 +61,9 @@ Edit with your credentials and paste at very bottom of your:
 
 ## Let's try?
 
-Open your browser
+Open your browser(use your adrees here + /)
+	
+	https://localhost/stripeCodeigniter/
 
 ## Export a file
 
@@ -183,6 +185,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjAyODY1NiwtMTk5OTEzMzM5MCwtMT
-g4MzA0NTQwOSwxODQxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbOTY0MjAyNDMxLC0xOTk5MTMzMzkwLC0xOD
+gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
 -->
