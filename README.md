@@ -57,73 +57,7 @@ You know what to do here, alright?!
 Edit with your credentials and paste at very bottom of your:
 
 	stripeCodeigniter/application/config/config.php
-## Edit your routes.php
 
-You need to store your keys in your application, I'm not talking about any security or optmization implementation here because the focus is to keep our application lean and effective to test it.
-
-	#----------------------------------------------
-	# Stripe Routes
-	#-----------------------------------------------
-	$route['make-stripe-payment'] = "StripePaymentController";
-	$route['handleStripePayment']['post'] = "StripePaymentController/handlePayment";
-
-Just paste this lines at the very bottom of your:
-
-	stripeCodeigniter/application/config/routes.php
-## Let's create our Controller
-
-*In your controllers folder, create a file called* **StripePaymentController.php**
-
-	stripeCodeigniter/application/controllers
-The content of your controller should be like that.
-
-	   <?php
-defined('BASEPATH') or exit('No direct script access allowed');
-
-class StripePaymentController extends CI_Controller
-{
-
-    public function __construct()
-    {
-        parent::__construct();
-        $this
-            ->load
-            ->library("session");
-        $this
-            ->load
-            ->helper('url');
-    }
-
-    public function index()
-    {
-        $this
-            ->load
-            ->view('checkout');
-    }
-
-    public function handlePayment()
-    {
-        require_once ('application/libraries/stripe-php/init.php');
-
-        \Stripe\Stripe::setApiKey($this
-            ->config
-            ->item('stripe_secret'));
-
-        \Stripe\Charge::create(["amount" => 100, "currency" => "usd", "source" => $this
-            ->input
-            ->post('stripeToken') , "description" => "ABC"]);
-
-        $this
-            ->session
-            ->set_flashdata('success', 'Payment has been successful.');
-
-        print_r($_SESSION);
-        //redirect('/make-stripe-payment', 'refresh');
-        
-    }
-}
-
-	
 
 ## Delete a file
 
@@ -249,6 +183,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODgxNDEyMSwtMTk5OTEzMzM5MCwtMT
-g4MzA0NTQwOSwxODQxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbNjEzOTc3NDU3LC0xOTk5MTMzMzkwLC0xOD
+gzMDQ1NDA5LDE4NDEyNjY3MDldfQ==
 -->
