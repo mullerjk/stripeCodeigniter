@@ -6,7 +6,7 @@ Hi! I'm probably your first interaction with Codeigniter and Stripe, happy to se
 
  1. **Clone this repository**
 
-You will need to have [git](https://github.com/git-guides/install-git) and php installed in your pc, then.
+You will need to have [git](https://github.com/git-guides/install-git) and [php](https://www.php.net/) installed in your pc, then.
 
     git clone https://github.com/mullerjk/stripeCodeigniter.git
 
@@ -183,6 +183,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzE4NjI2MSwtMTk5OTEzMzM5MCwtMT
+eyJoaXN0b3J5IjpbMjEyMjAyODY1NiwtMTk5OTEzMzM5MCwtMT
 g4MzA0NTQwOSwxODQxMjY2NzA5XX0=
 -->
