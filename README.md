@@ -19,7 +19,7 @@ We need a version 3 of Codeigniter in this project, follow this link.
 Install codeigniter inside your stripeCodeigniter folder.
 
 
-## Create Your Stripe keys
+## Obtain Your Stripe Keys
 
 That was my first time dealing with **stripe**, and I could notice a very powerfull and easy to understood documentation, this integration worked like a charm. 
 
@@ -29,7 +29,9 @@ I will let you with the documentation.
 Now with your keys in hand.
 ## Edit your config.php
 
-You have to store your keys in your application, I'm not doing any security or optmization because the focus is to keep our application lean
+You have to store your keys in your application, I'm not doing any security or optmization because the focus is to keep our application lean e effective.
+
+
 
 ## Rename a file
 
@@ -158,5 +160,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDgzMzY2OSwxODQxMjY2NzA5XX0=
+eyJoaXN0b3J5IjpbNTI4MjQ0MjE2LDE4NDEyNjY3MDldfQ==
 -->
